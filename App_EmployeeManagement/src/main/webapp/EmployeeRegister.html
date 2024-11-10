@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="./bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./navbarStyle.css">
+<link rel="stylesheet" href="./navbarScript.js">
+</head>
+<body class="container-fluid">
+	 <div class="topnav" id="myTopnav">
+    <a class="active" href="EmployeeRegister.html">AddEmployee</a>
+    <a href="view">ViewAllEmployee</a>
+    <a href="viewAllLeave">ViewAllLeave</a>
+    <a href="logout">Logout</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">  
+        <i class="bi bi-justify"></i>
+    </a>
+ </div>
+	
+	
+   <div class="card">
+    <form action="add" method="post">
+        <div class="card-header"><h3>Employee Registration form</h3></div>
+      <p>Employee Id:<input type="text" name="eid"></p>
+      <p>Employee Name:<input type="text" name="ename"></p>
+      <p>Employee Desg:<input type="text" name="edesg"></p>
+      <p>Employee bsal:<input type="text" name="bsal"></p>
+      <p>Employee phNO:<input type="text" name="phno"></p>
+      <a class="btn btn-outline-success" href="Login.jsp">Back</a>
+      <input class="btn btn-outline-danger" type="submit" value="Register">
+     
+    </form>
+   </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+  .card{
+        text-align:center;
+        margin-top: 150px;
+        margin-left: 450px;
+        margin-right: 450px;
+        background-color: #F2F2F2; 
+        box-shadow: #008D5A 3px 3px 3px 3px;
+    }
+    p{
+        padding: 8px;
+    }
+    

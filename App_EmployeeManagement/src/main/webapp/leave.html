@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="./bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body class="container-fluid">
+	<div class="card">
+		<div class="card-header">
+		<h3>Leave Form</h3>
+	    </div>
+ <form action="addLeave" method="post">
+	<p>EmployeeID:<input type="text" name="eid"></p>
+	<p>LeaveStartDate:<input type="date"  name="sdate"></p>
+	<p>LeaveEndDate:<input type="date" name="edate"></p>
+	<p>LeaveType:
+	<select name="ltype">
+	  <option value="Vacation">Vacation</option>	
+	  <option value="Sick Leave">Sick Leave</option>
+	</select></p>
+	<input type="hidden" name="status" value="Pending">
+	 <a class="btn btn-outline-success" href="EmpLogin.jsp">Back</a>
+	<input type="submit" class="btn btn-outline-danger" value="Submit">
+ </form>
+	</div>
+</body>
+</html>
